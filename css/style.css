@@ -1,0 +1,393 @@
+
+
+/* Basic CSS styling */
+*{ 
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+.navbar
+{
+    height: 60px;
+    background-color: #E0DFD5;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo
+{
+    height: 50px;
+    width: 150px;
+
+}
+
+.nav-address
+{
+    height: 50px;
+    width: 100px;
+    
+    
+}
+.border
+{
+    border: 1.8px solid transparent;
+
+}
+.border:hover{
+   
+   
+    border: 1px solid rgb(8, 235, 235);
+}
+.add-first{
+    color: black;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second
+{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display:flex;
+
+}
+.hero-search
+{
+   display:flex;
+   justify-content: space-evenly;
+   background-color:rgba(247, 227, 11, 0.977);; 
+   width: 628px;
+   height: 48px;
+   border-radius: 4px;
+}
+.search-select
+{
+    background-color: white;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px ;
+    border: none;
+
+
+}
+.search-input
+{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+
+}
+.search-icon
+{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:rgba(247, 227, 11, 0.977);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px ;
+    color: #0f1111;
+
+}
+
+.nav-search:hover
+{
+    border: 2px solid orange;
+}
+.nav-cart
+{
+    display: flex;
+    
+    width: 85px;
+    font-size: 1.5rem;
+
+}
+.span
+{
+   font-size: 0.7rem; 
+}
+.nav-second
+{
+ 
+  font-size: 0.8rem;  
+  font-weight: 700;
+}
+
+.panel
+{
+    height: 40px;
+    background-color: #5D6160;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.dropdown {
+    
+    float: right;
+    overflow: inherit;
+ 
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+
+    background-color: burlywood ;
+    height: 48px;
+
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #059389;
+    
+   box-shadow: 0px 8px 16px 0px rgba(12, 217, 9, 0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+ .panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+.panel-ops p
+{
+    display: inline;
+    justify-content: space-evenly;
+    color:white;
+    margin-left:10px;  
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals
+{
+    font-size: 0.9rem;
+    font-weight: 700;
+    display: inline;
+}
+header {
+ 
+    margin: 0px;
+    padding: 0px;
+   
+}
+.home {
+    background-color: rgb(38, 2, 8);
+    color: rgb(26, 134, 78);
+    padding: 10px;
+    text-align: start;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("/home/backgroundbody.avif");
+    background: size cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+
+}
+nav a {
+    color: white;
+    text-decoration:  revert-layer;
+    margin: 0 10px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.hero-section{
+    background-image: url("/home/backgroundhero.avif");
+  
+    height: 300px;
+    background-size: cover;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.shop-section {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+    
+}
+.box
+{
+   border:2px solid black;
+   height: 420px;
+   width: 23%;
+   background-color: white; 
+   padding: 20px 0px 15px;
+   margin-top: 10px;
+
+}
+.box-img
+{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.box-content
+{
+    margin-left: 10rem;
+    margin-right: 10rem;
+
+}
+.box-content p
+{
+
+    color: #007185;
+
+}
+.container {
+    
+    justify-content: center;
+    align-items: center;
+    height: 40; /* Adjust as needed */
+    margin-top: 5px;
+  }
+  
+  .circular-image {
+    border-radius: 50%; /* Creates a circular shape */
+    width: 200px; /* Adjust the width and height as needed */
+    height: 200px; /* Should be equal to maintain a perfect circle */
+    border: 2px solid #fff; /* Optional: Add a border around the circle */
+  }
+  .text
+  {
+    
+    color: black;
+    margin-left: 20px;
+   
+
+  }
+  
+footer {
+    margin-top: 15px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color:#222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+ul{
+    margin-top: 15px;
+}
+ul a{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 8px;
+    font-size: 0.85rem; 
+
+}
+
+.foot-panel3
+{
+    background-color: #e20e98;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("/home/png10.png");
+  
+    height: 50px;
+    background-size: cover;
+    width: 150px;
+   
+
+
+
+}
+.foot-panel4
+{
+    background-color: #0f1111;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.foot-panel4 a{
+    justify-content: space-evenly;
+    margin-left: 70px;
+    font-size: 0.85rem; 
+
+}
+
+
